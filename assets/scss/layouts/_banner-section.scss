@@ -4,6 +4,17 @@ header{
     z-index: 1;
 }
 
+section.social-media{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px 10px;
+    display: flex;
+    justify-content: end;
+
+    .email-container{
+        margin-left: 20px;
+    }
+}
+
 nav{
     position: absolute;
     top: 8%;
@@ -27,19 +38,33 @@ nav{
             margin: 0 10px;
             font-weight: 600;
             a{
-                color: #fff;
+    
             }
         }
     }
 }
 
-section.social-media{
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 15px 10px;
+.banner-info{
+    position: absolute;
+    z-index: 1;
+    top: 16%;
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    justify-content: center;
+    padding: 110px 150px;
+    width: 72%;
 
-    .email-container{
-        margin-left: 20px;
+    p{
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    .button-container{
+        margin-top: 10px;
     }
 }
