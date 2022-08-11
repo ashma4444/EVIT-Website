@@ -17,9 +17,17 @@ p{
     line-height: 24px;
 }
 
+h2{
+    font-size: 32px;
+}
+
 @include for-tablet-portrait-up {
     h1{
         font-size: 38px;
+    }
+
+    h2{
+        font-size: 26px;
     }
 
     p{

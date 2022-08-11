@@ -1,0 +1,33 @@
+.project-icons-container{
+    background-color: #010834;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 5px;
+    margin-bottom: 9px;
+
+    @include for-tablet-landscape-up{
+        justify-content: space-evenly;
+    }
+
+    @include for-tablet-portrait-up{
+        justify-content: space-between;
+    }
+
+    .project-icons{
+        width: 20%;
+        @include for-tablet-landscape-up{
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        @include for-tablet-portrait-up{
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        img{
+            max-width: 140px;
+        }
+    }
+}
