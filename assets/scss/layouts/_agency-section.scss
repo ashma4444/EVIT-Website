@@ -1,0 +1,31 @@
+.agency-container{
+    background-color: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    p,h2{
+        color: #000;
+        margin-bottom: 20px;
+    }
+    p{
+        font-weight: 600;
+    }
+
+    .agency-img-container{
+        width: 50%;
+        padding: 20px;
+        @include for-desktop{
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+    }   
+    .agency-info-conatiner{
+        padding: 20px;
+        width: 50%;
+        @include for-desktop{
+            width: 100%;
+        }
+    }
+}

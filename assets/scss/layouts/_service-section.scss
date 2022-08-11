@@ -14,7 +14,7 @@
         width: 50%;
         @include for-desktop {
             width: 100%;
-            text-align: center;
+            // text-align: center;
         }
 
         h2{
@@ -24,7 +24,7 @@
         }
         p{
             margin-bottom: 25px;
-            // font-weight: 600;
+            font-weight: 600;
         }
     }
 
@@ -39,7 +39,8 @@
 
         .service{
             width: 50%;
-            text-align: center;
+            // text-align: center;
+            padding-right: 20px;
             @include for-tablet {
                 width: 100%;
             }
@@ -53,7 +54,7 @@
             }
             p{
                 margin-bottom: 15px;
-                // font-weight: 600;
+                font-weight: 600;
             }
         }
     }
