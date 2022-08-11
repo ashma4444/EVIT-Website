@@ -1,0 +1,38 @@
+.quote-container{
+    background-image: url('../assets/images/Image 17.png');
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2,p,span{
+        color: #000;
+        text-align: center;
+    }
+    p{
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    span{
+        font-size: 13px;
+        font-weight: 600;
+        display: block;
+    }
+    .quote-wrapper{
+        background-color: #ffff;
+        padding: 30px;
+        margin-top: 40px;
+        opacity: 0.8;
+        width: 60%;
+        @include for-tablet-landscape-up{
+            width: 100%;
+        }
+        .quote-author{
+
+        }
+    }
+}
