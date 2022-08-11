@@ -1,0 +1,51 @@
+.idea-solution-container{
+    padding: 80px;
+    p, h2, h3{
+        color: #000;
+        text-align: center;
+    }
+    p{
+        // font-weight: 600;
+    }
+    h2{
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    h3{
+       margin-bottom: 15px; 
+    }
+
+    .idea-solutions-wrapper{
+        display: flex;
+        @include for-desktop{
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .idea-solution{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 20%;
+            @include for-desktop{
+                width: 30%;
+                margin-bottom: 20px;
+            }
+
+            .idea-img{
+                width: 100px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+
+        .line-img{
+            height: 12px;
+            width: 60px;
+            margin: 50px 0;
+            @include for-desktop{
+                height: 12px;
+                width: 100px;       
+            }
+        }
+    }
+}

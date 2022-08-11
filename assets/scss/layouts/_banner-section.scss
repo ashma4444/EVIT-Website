@@ -1,3 +1,5 @@
+@import '../responsive';
+
 header{
     position: absolute;
     width: 100%;
@@ -9,6 +11,10 @@ section.social-media{
     padding: 15px 10px;
     display: flex;
     justify-content: end;
+
+    @include for-tablet-landscape-up{
+        justify-content: center;
+    }
 
     .email-container{
         margin-left: 20px;
@@ -24,22 +30,54 @@ nav{
     justify-content: space-between;
     width: 100%;
     padding: 15px 80px;
+    @include for-desktop-up {    
+        padding: 15px 30px;
+    }
+    @include for-desktop{
+        padding: 20px;
+    }
+    @include for-tablet-landscape-up{
+    }
 
     .logo-container{
         img{
             max-width: 180px;
-            height: auto;    
+            height: auto;  
+            @include for-desktop{
+                max-width: 150px;
+            }  
         }
     }
 
     ul{
         display: flex;
+        @include for-tablet-landscape-up{
+            display: none;
+        }
         li{
             margin: 0 10px;
             font-weight: 600;
+            @include for-desktop{
+                margin: 5px;
+            }
             a{
     
             }
+        }
+    }
+
+    .button-container-header{
+        @include for-tablet-landscape-up{
+            display: none;
+        }
+    }
+
+    .ham-menu-icon i{
+        font-size: 22px;
+        display: none;
+
+        @include for-tablet-landscape-up{
+            display: block;
         }
     }
 }
@@ -47,12 +85,22 @@ nav{
 .banner-info{
     position: absolute;
     z-index: 1;
-    top: 16%;
+    top: 20%;
+    height: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 110px 150px;
+    padding: 0 150px;
     width: 72%;
+
+    @include for-desktop-up {   
+        padding: 50px; 
+        width: 78%;
+    }
+
+    @include for-tablet-portrait-up {
+        width: 100%;
+    }
 
     p{
         font-weight: 600;
