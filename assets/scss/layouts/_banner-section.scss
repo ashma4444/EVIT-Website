@@ -36,8 +36,6 @@ nav{
     @include for-desktop{
         padding: 20px;
     }
-    @include for-tablet-landscape-up{
-    }
 
     .logo-container{
         img{
@@ -51,7 +49,9 @@ nav{
 
     ul{
         display: flex;
+        opacity: 1;
         @include for-tablet-landscape-up{
+            opacity: 0;
             display: none;
         }
         li{

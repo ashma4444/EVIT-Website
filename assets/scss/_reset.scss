@@ -10,6 +10,11 @@
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
     color: #fff;
+    // overflow: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 p{

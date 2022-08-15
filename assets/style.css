@@ -10,6 +10,10 @@
   color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   font-size: 15px;
   line-height: 24px;
@@ -108,6 +112,26 @@ form .form-wrapper ::placeholder {
   font-weight: 600;
 }
 
+.scroll-to-top {
+  background-color: #0070d1;
+  position: fixed;
+  padding: 15px 18px;
+  border-radius: 5px;
+  bottom: 0;
+  right: 20px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.4s;
+}
+.scroll-to-top i {
+  font-size: 12px;
+}
+
+.scroll-to-top.active {
+  opacity: 1;
+  bottom: 30px;
+}
+
 header {
   position: absolute;
   width: 100%;
@@ -160,9 +184,11 @@ nav .logo-container img {
 }
 nav ul {
   display: flex;
+  opacity: 1;
 }
 @media (max-width: 900px) {
   nav ul {
+    opacity: 0;
     display: none;
   }
 }
