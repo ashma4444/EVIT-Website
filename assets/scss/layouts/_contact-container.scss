@@ -1,0 +1,96 @@
+.contact-container{
+    padding: 80px;
+    
+    h2,p{
+        color: #000;
+        text-align: center;
+    }
+    h2{
+        margin-bottom: 30px;
+    }
+    p{
+        font-weight: 600;
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        @include for-desktop{
+            width: 80%;
+        }
+        @include for-tablet{
+            width: 100%;
+        }
+    }
+
+    form{
+        background-color: #010834;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 40px 0;
+        @include for-desktop{
+            padding: 40px;
+        }
+
+        @include for-tablet-landscape-up{
+            width: 100%;
+        }
+        
+        p{
+            color: #fff;
+            margin-bottom: 30px;
+            @include for-tablet-landscape-up{
+                margin-bottom: 10px;
+            }
+        }
+
+        .form-wrapper{
+            text-align: center;
+            width: 60%;
+            margin: 0 auto;
+
+            @include for-desktop-up{
+                width: 75%;
+            }
+            @include for-desktop{
+                width: 100%;
+            }
+
+            .input-container{
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                @include for-tablet-landscape-up{
+                    flex-direction: column;
+                    
+                }
+            }
+
+            .form-checkbox-button{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+
+                @include for-tablet-landscape-up{
+                    flex-direction: column;
+                }
+
+                .checkbox-container{
+                    display: flex;
+                    align-items: center;
+
+                    @include for-tablet-landscape-up{
+                        margin-bottom: 20px;
+                        width: 52%;
+                    }
+
+                    p{
+                        width: 100%;
+                        margin: 0;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
