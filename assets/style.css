@@ -67,9 +67,16 @@ span.social-media-info {
 
 .btn {
   background-color: #2b9dff;
-  padding: 10px 15px;
+  border: 1.5px solid #2b9dff;
+  padding: 8.5px 15px;
   font-weight: 600;
   font-size: 15px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: transparent;
 }
 
 .btn2 {
@@ -79,6 +86,13 @@ span.social-media-info {
   font-weight: 600;
   font-size: 15px;
   margin-left: 5px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #2b9dff;
+  border-color: #2b9dff;
 }
 
 form .form-wrapper input {
@@ -200,6 +214,10 @@ nav ul li {
   nav ul li {
     margin: 5px;
   }
+}
+nav .button-container-header .btn:hover {
+  background-color: #0070d1;
+  border-color: #0070d1;
 }
 @media (max-width: 900px) {
   nav .button-container-header {
@@ -397,6 +415,9 @@ nav .ham-menu-icon i {
   .agency-container .agency-info-conatiner {
     width: 100%;
   }
+}
+.agency-container .agency-info-conatiner .btn:hover {
+  color: #2b9dff;
 }
 
 .projects-container p, .projects-container h2, .projects-container a, .projects-container i, .projects-container span {
@@ -701,15 +722,22 @@ footer .footer-wrapper .common-footer-div ul li {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
 }
 footer .footer-wrapper .common-footer-div ul li i {
   margin-right: 10px;
 }
 footer .footer-wrapper .common-footer-div ul li p {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
+}
+footer .footer-wrapper .common-footer-div ul li a {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+footer .footer-wrapper .common-footer-div ul li a:hover {
+  color: #2b9dff;
 }
 footer .copyright p {
   font-weight: 600;

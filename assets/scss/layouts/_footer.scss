@@ -20,14 +20,23 @@ footer{
                     display: flex;
                     align-items: center;
                     margin-bottom: 15px;
-                    font-size: 14px;
+                    font-size: 15px;
                     font-weight: 600;
                     i{
                         margin-right: 10px;
                     }
                     p{
-                        font-size: 14px;
+                        font-size: 15px;
                         font-weight: 600;
+                    }
+
+                    a{
+                        cursor: pointer;
+                        transition: all .3s;
+                    }
+
+                    a:hover{
+                        color: #2b9dff;
                     }
                 }
             }

@@ -64,6 +64,10 @@ nav{
     }
 
     .button-container-header{
+        .btn:hover{
+            background-color: #0070d1;
+            border-color: #0070d1;
+        }
         @include for-tablet-landscape-up{
             display: none;
         }

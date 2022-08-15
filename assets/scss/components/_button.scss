@@ -1,8 +1,15 @@
 .btn{
     background-color: #2b9dff;
-    padding: 10px 15px;
+    border: 1.5px solid #2b9dff;
+    padding: 8.5px 15px;
     font-weight: 600;
     font-size: 15px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
 }
 
 .btn2{
@@ -12,4 +19,11 @@
     font-weight: 600;
     font-size: 15px;
     margin-left: 5px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: #2b9dff;
+    border-color: #2b9dff;
 }
