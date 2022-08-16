@@ -576,6 +576,11 @@ nav .ham-menu-icon i {
   height: 480px;
   padding: 80px;
 }
+@media (max-width: 600px) {
+  .quote-container {
+    padding: 60px;
+  }
+}
 .quote-container h2, .quote-container p, .quote-container span {
   color: #000;
   text-align: center;

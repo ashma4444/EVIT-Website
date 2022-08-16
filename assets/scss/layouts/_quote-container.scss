@@ -9,6 +9,10 @@
     // justify-content: center;
     // align-items: center;
 
+    @include for-tablet-portrait-up{
+        padding: 60px;
+    }
+
     h2,p,span{
         color: #000;
         text-align: center;
