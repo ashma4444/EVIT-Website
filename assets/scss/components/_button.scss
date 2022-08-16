@@ -1,11 +1,16 @@
 .btn{
     background-color: #2b9dff;
-    border: 1.5px solid #2b9dff;
+    border: 2px solid #2b9dff;
     padding: 8.5px 15px;
     font-weight: 600;
     font-size: 15px;
-    transition: all .3s;
     cursor: pointer;
+}
+
+.btn:disabled{
+    pointer-events: none;
+    cursor: no-drop;
+    opacity: 0.5;
 }
 
 .btn:hover{
@@ -14,12 +19,11 @@
 
 .btn2{
     background: none;
-    border: 1.5px solid;
+    border: 2px solid;
     padding: 8.5px 15px;
     font-weight: 600;
     font-size: 15px;
     margin-left: 5px;
-    transition: all .3s;
     cursor: pointer;
 }
 

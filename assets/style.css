@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: "Montserrat Alternates", sans-serif;
   color: #fff;
+  transition: all 0.4s;
 }
 
 html {
@@ -67,12 +68,17 @@ span.social-media-info {
 
 .btn {
   background-color: #2b9dff;
-  border: 1.5px solid #2b9dff;
+  border: 2px solid #2b9dff;
   padding: 8.5px 15px;
   font-weight: 600;
   font-size: 15px;
-  transition: all 0.3s;
   cursor: pointer;
+}
+
+.btn:disabled {
+  pointer-events: none;
+  cursor: no-drop;
+  opacity: 0.5;
 }
 
 .btn:hover {
@@ -81,12 +87,11 @@ span.social-media-info {
 
 .btn2 {
   background: none;
-  border: 1.5px solid;
+  border: 2px solid;
   padding: 8.5px 15px;
   font-weight: 600;
   font-size: 15px;
   margin-left: 5px;
-  transition: all 0.3s;
   cursor: pointer;
 }
 
@@ -214,6 +219,9 @@ nav ul li {
   nav ul li {
     margin: 5px;
   }
+}
+nav ul li a:hover {
+  color: #2b9dff;
 }
 nav .button-container-header .btn:hover {
   background-color: #0070d1;
@@ -567,10 +575,6 @@ nav .ham-menu-icon i {
   background-size: cover;
   height: 480px;
   padding: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .quote-container h2, .quote-container p, .quote-container span {
   color: #000;
@@ -585,18 +589,22 @@ nav .ham-menu-icon i {
   font-weight: 600;
   display: block;
 }
-.quote-container .quote-wrapper {
+.quote-container .quote-container-wrapper .quote-wrapper {
   background-color: white;
+  display: block !important;
   padding: 30px;
+  margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 20px;
   opacity: 0.8;
-  width: 60%;
+  width: 60% !important;
 }
 @media (max-width: 900px) {
-  .quote-container .quote-wrapper {
-    width: 100%;
+  .quote-container .quote-container-wrapper .quote-wrapper {
+    width: 100% !important;
   }
 }
+
 .contact-container {
   padding: 80px;
 }
@@ -734,7 +742,6 @@ footer .footer-wrapper .common-footer-div ul li p {
 }
 footer .footer-wrapper .common-footer-div ul li a {
   cursor: pointer;
-  transition: all 0.3s;
 }
 footer .footer-wrapper .common-footer-div ul li a:hover {
   color: #2b9dff;

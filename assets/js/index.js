@@ -17,4 +17,14 @@ $ ( document ).ready(function(){
             $( '.btn' ).prop('disabled', true);
         }
     });
+
+    // slider
+    $('.quote-container-wrapper').slick({
+        dots:true,
+        arrows:false,
+        autoplay:true,
+        autoplaySpeed:1500,
+        fade:true,
+        fadeSpeed: 1000
+  });
 })

@@ -4,10 +4,10 @@
     background-size: cover;
     height: 480px;
     padding: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
 
     h2,p,span{
         color: #000;
@@ -22,17 +22,19 @@
         font-weight: 600;
         display: block;
     }
-    .quote-wrapper{
-        background-color: #ffff;
-        padding: 30px;
-        margin-top: 40px;
-        opacity: 0.8;
-        width: 60%;
-        @include for-tablet-landscape-up{
-            width: 100%;
-        }
-        .quote-author{
-
+    .quote-container-wrapper{
+        .quote-wrapper{
+            background-color: #ffff;
+            display: block !important;
+            padding: 30px;
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            opacity: 0.8;
+            width: 60% !important;
+            @include for-tablet-landscape-up{
+                width: 100% !important;
+            }
         }
     }
 }
