@@ -1,5 +1,5 @@
 .idea-solution-container{
-    padding: 80px;
+    padding: 80px 30px;
     p, h2, h3{
         color: #000;
         text-align: center;
@@ -16,34 +16,39 @@
 
     .idea-solutions-wrapper{
         display: flex;
+        justify-content: center;
         @include for-desktop{
             flex-wrap: wrap;
             justify-content: space-between;
         }
-        .idea-solution{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 20%;
-            @include for-desktop{
-                width: 30%;
-                margin-bottom: 20px;
-            }
 
-            .idea-img{
-                width: 100px;
-                text-align: center;
-                margin-bottom: 20px;
+        .idea-solutions-box{
+            display: flex !important;
+            justify-content: space-around;
+            .idea-solution{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                @include for-desktop{
+                    width: 30%;
+                    margin-bottom: 20px;
+                }
+    
+                .idea-img{
+                    width: 100px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
             }
-        }
-
-        .line-img{
-            height: 12px;
-            width: 60px;
-            margin: 50px 0;
-            @include for-desktop{
+    
+            .line-img{
                 height: 12px;
-                width: 100px;       
+                max-width: 60px;
+                margin: 50px 0;
+                @include for-desktop{
+                    height: 12px;
+                    width: 100px;       
+                }
             }
         }
     }
