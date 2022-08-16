@@ -4,10 +4,6 @@
     background-size: cover;
     height: 480px;
     padding: 80px;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
 
     @include for-tablet-portrait-up{
         padding: 60px;
@@ -18,12 +14,10 @@
         text-align: center;
     }
     p{
-        font-weight: 600;
         margin-bottom: 10px;
     }
     span{
         font-size: 13px;
-        font-weight: 600;
         display: block;
     }
     .quote-container-wrapper{

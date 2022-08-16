@@ -2,14 +2,8 @@
     p,h2,a,i,span {
         color: #000;
     }
-    p,a {
-        font-weight: 600;
-    }
-    a{
-        font-size: 14px;
-    }
     span{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .projects-info{
@@ -78,9 +72,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-
-                    a{
-                        font-size: 16px;
+                    p{
                         font-weight: 600;
                     }
                 }

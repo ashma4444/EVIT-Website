@@ -56,16 +56,13 @@ nav{
         }
         li{
             margin: 0 10px;
-            font-weight: 600;
             @include for-desktop{
                 margin: 5px;
             }
             a{
-                // border-bottom: 2px solid #2b9cff00;
-                // transition: all .5s;
+                font-size: 18px;
                 &:hover{
                     color: #2b9dff;
-                    // border-bottom: 2px solid #2b9dff;
                 }
             }
         }
@@ -81,7 +78,7 @@ nav{
         }
     }
 
-    .ham-menu-icon i{
+    .ham-menu-icon{
         font-size: 22px;
         display: none;
 
@@ -112,7 +109,6 @@ nav{
     }
 
     p{
-        font-weight: 600;
         margin-bottom: 20px;
     }
 

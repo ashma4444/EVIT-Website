@@ -14,7 +14,6 @@
         width: 50%;
         @include for-desktop {
             width: 100%;
-            // text-align: center;
         }
 
         h2{
@@ -24,7 +23,6 @@
         }
         p{
             margin-bottom: 25px;
-            font-weight: 600;
         }
     }
 
@@ -54,7 +52,6 @@
             }
             p{
                 margin-bottom: 15px;
-                font-weight: 600;
             }
         }
     }

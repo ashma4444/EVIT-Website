@@ -6,22 +6,31 @@
   outline: none;
   list-style: none;
   box-sizing: border-box;
-  font-family: "Montserrat Alternates", sans-serif;
   color: #fff;
   transition: all 0.4s;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-p {
-  font-size: 15px;
+h1, h2, h3, h4 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+p, a, span, li {
+  font-size: 17px;
   line-height: 24px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 h2 {
   font-size: 32px;
+}
+
+::placeholder {
+  font-size: 15px;
 }
 
 @media (max-width: 600px) {
@@ -32,7 +41,7 @@ h2 {
     font-size: 26px;
   }
   p {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 i {
@@ -213,12 +222,14 @@ nav ul {
 }
 nav ul li {
   margin: 0 10px;
-  font-weight: 600;
 }
 @media (max-width: 1024px) {
   nav ul li {
     margin: 5px;
   }
+}
+nav ul li a {
+  font-size: 18px;
 }
 nav ul li a:hover {
   color: #2b9dff;
@@ -232,12 +243,12 @@ nav .button-container-header .btn:hover {
     display: none;
   }
 }
-nav .ham-menu-icon i {
+nav .ham-menu-icon {
   font-size: 22px;
   display: none;
 }
 @media (max-width: 900px) {
-  nav .ham-menu-icon i {
+  nav .ham-menu-icon {
     display: block;
   }
 }
@@ -265,7 +276,6 @@ nav .ham-menu-icon i {
   }
 }
 .banner-info p {
-  font-weight: 600;
   margin-bottom: 20px;
 }
 .banner-info h1 {
@@ -302,7 +312,6 @@ nav .ham-menu-icon i {
 }
 .service-wrapper .service-info-container p {
   margin-bottom: 25px;
-  font-weight: 600;
 }
 .service-wrapper .services-container {
   width: 50%;
@@ -333,7 +342,6 @@ nav .ham-menu-icon i {
 }
 .service-wrapper .services-container .service p {
   margin-bottom: 15px;
-  font-weight: 600;
 }
 
 .idea-solution-container {
@@ -342,9 +350,6 @@ nav .ham-menu-icon i {
 .idea-solution-container p, .idea-solution-container h2, .idea-solution-container h3 {
   color: #000;
   text-align: center;
-}
-.idea-solution-container p {
-  font-weight: 600;
 }
 .idea-solution-container h2 {
   margin-bottom: 50px;
@@ -404,9 +409,6 @@ nav .ham-menu-icon i {
   color: #000;
   margin-bottom: 20px;
 }
-.agency-container p {
-  font-weight: 600;
-}
 .agency-container .agency-img-container {
   width: 50%;
   padding: 20px;
@@ -435,14 +437,8 @@ nav .ham-menu-icon i {
 .projects-container p, .projects-container h2, .projects-container a, .projects-container i, .projects-container span {
   color: #000;
 }
-.projects-container p, .projects-container a {
-  font-weight: 600;
-}
-.projects-container a {
-  font-size: 14px;
-}
 .projects-container span {
-  font-size: 14px;
+  font-size: 15px;
 }
 .projects-container .projects-info {
   padding: 80px 80px 40px 80px;
@@ -514,8 +510,7 @@ nav .ham-menu-icon i {
   align-items: center;
   justify-content: space-between;
 }
-.projects-container .projects-img .project-img-wrapper .project-img-info .project-img-link a {
-  font-size: 16px;
+.projects-container .projects-img .project-img-wrapper .project-img-info .project-img-link p {
   font-weight: 600;
 }
 .projects-container .projects-img .project-img-wrapper img {
@@ -568,12 +563,10 @@ nav .ham-menu-icon i {
   text-align: center;
 }
 .quote-container p {
-  font-weight: 600;
   margin-bottom: 10px;
 }
 .quote-container span {
   font-size: 13px;
-  font-weight: 600;
   display: block;
 }
 .quote-container .quote-container-wrapper .quote-wrapper {
@@ -603,7 +596,6 @@ nav .ham-menu-icon i {
   margin-bottom: 30px;
 }
 .contact-container p {
-  font-weight: 600;
   width: 55%;
   margin: 0 auto;
   margin-bottom: 10px;
@@ -718,14 +710,12 @@ footer .footer-wrapper .common-footer-div ul li {
   align-items: center;
   margin-bottom: 15px;
   font-size: 15px;
-  font-weight: 600;
 }
 footer .footer-wrapper .common-footer-div ul li i {
   margin-right: 10px;
 }
 footer .footer-wrapper .common-footer-div ul li p {
   font-size: 15px;
-  font-weight: 600;
 }
 footer .footer-wrapper .common-footer-div ul li a {
   cursor: pointer;
@@ -734,7 +724,6 @@ footer .footer-wrapper .common-footer-div ul li a:hover {
   color: #2b9dff;
 }
 footer .copyright p {
-  font-weight: 600;
   text-align: center;
 }
 

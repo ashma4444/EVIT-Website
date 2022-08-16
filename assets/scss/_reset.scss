@@ -8,22 +8,31 @@
     outline: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Montserrat Alternates', sans-serif;
     color: #fff;
     transition: all .4s;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 html{
     scroll-behavior: smooth;
 }
 
-p{
-    font-size: 15px;
+h1,h2,h3,h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p,a,span,li{
+    font-size: 17px;
     line-height: 24px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h2{
     font-size: 32px;
+}
+
+::placeholder{
+    font-size: 15px;
 }
 
 @include for-tablet-portrait-up {
@@ -36,6 +45,6 @@ h2{
     }
 
     p{
-        font-size: 14px;
+        font-size: 15px;
     }
 }
