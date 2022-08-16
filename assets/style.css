@@ -531,11 +531,7 @@ nav .ham-menu-icon i {
 
 .project-icons-container {
   background-color: #010834;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px;
+  padding: 40px;
   margin-top: 2px;
   margin-bottom: 6px;
 }
@@ -549,24 +545,28 @@ nav .ham-menu-icon i {
     justify-content: space-between;
   }
 }
-.project-icons-container .project-icons {
+.project-icons-container .project-icons-wrapper .project-icons {
   width: 20%;
-  text-align: center;
+  display: flex !important;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
 }
 @media (max-width: 900px) {
-  .project-icons-container .project-icons {
+  .project-icons-container .project-icons-wrapper .project-icons {
     width: 30%;
     margin-bottom: 20px;
   }
 }
 @media (max-width: 600px) {
-  .project-icons-container .project-icons {
+  .project-icons-container .project-icons-wrapper .project-icons {
     width: 50%;
     margin-bottom: 20px;
   }
 }
-.project-icons-container .project-icons img {
+.project-icons-container .project-icons-wrapper .project-icons img {
   max-width: 140px;
+  max-height: 90px;
 }
 
 .quote-container {
