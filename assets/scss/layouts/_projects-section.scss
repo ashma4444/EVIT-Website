@@ -26,6 +26,10 @@
             display: flex;
             li{
                 margin-right: 20px;
+
+                a.active{
+                    color: #2b9dff;
+                }
             }
         }
 
@@ -44,8 +48,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         .project-img-wrapper{
-            width: 33.1%;
-            position: relative;
+            width: 33%;
             &:hover {
                 .project-img-info{
                     opacity: 1;

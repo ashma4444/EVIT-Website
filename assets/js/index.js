@@ -96,5 +96,22 @@ $ ( document ).ready(function(){
           }
         }
       ]
-  });
+    });
+
+    // isotope
+    $('.projects-img').isotope({
+      itemSelector: '.project-img-wrapper',
+      layoutMode: 'fitRows'
+    });
+
+    $('.projects-category ul li a').click(function(){
+        $('.projects-category ul li a').removeClass('active');
+        $(this).addClass('active');
+
+        var selector = $(this).attr('data-filter');
+        $('.projects-img').isotope({
+            filter: selector
+        });
+        return false;
+    });
 })

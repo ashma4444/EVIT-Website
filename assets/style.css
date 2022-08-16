@@ -40,7 +40,7 @@ h2 {
   h2 {
     font-size: 26px;
   }
-  p {
+  p, a, span, li {
     font-size: 15px;
   }
 }
@@ -143,6 +143,7 @@ form .form-wrapper ::placeholder {
 .scroll-to-top {
   background-color: #0070d1;
   position: fixed;
+  z-index: 111;
   padding: 15px 18px;
   border-radius: 5px;
   bottom: 0;
@@ -465,6 +466,9 @@ nav .ham-menu-icon {
 .projects-container .projects-category ul li {
   margin-right: 20px;
 }
+.projects-container .projects-category ul li a.active {
+  color: #2b9dff;
+}
 .projects-container .projects-category .see-all-projects {
   display: flex;
   align-items: center;
@@ -479,8 +483,7 @@ nav .ham-menu-icon {
   justify-content: space-between;
 }
 .projects-container .projects-img .project-img-wrapper {
-  width: 33.1%;
-  position: relative;
+  width: 33%;
 }
 .projects-container .projects-img .project-img-wrapper:hover .project-img-info {
   opacity: 1;
