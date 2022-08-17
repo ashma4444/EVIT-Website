@@ -483,7 +483,8 @@ nav .ham-menu-icon {
   justify-content: space-between;
 }
 .projects-container .projects-img .project-img-wrapper {
-  width: 33%;
+  width: 33.33%;
+  padding: 0 5px;
 }
 .projects-container .projects-img .project-img-wrapper:hover .project-img-info {
   opacity: 1;
