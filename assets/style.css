@@ -737,7 +737,7 @@ footer .copyright p {
 .ham-menu {
   background-color: #010834;
   height: 100vh;
-  opacity: 0;
+  display: none;
 }
 .ham-menu nav {
   display: flex;
