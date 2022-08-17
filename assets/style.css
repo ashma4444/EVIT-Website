@@ -730,4 +730,30 @@ footer .copyright p {
   text-align: center;
 }
 
+.ham-menu {
+  background-color: #010834;
+  height: 100vh;
+  display: none;
+}
+.ham-menu nav {
+  display: flex;
+  flex-direction: column;
+}
+.ham-menu nav .nav-logo-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.ham-menu nav .nav-logo-wrapper .ham-menu-icon-cross i {
+  font-size: 18px;
+}
+.ham-menu nav ul {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  padding: 20px 0;
+  width: 100%;
+  justify-content: flex-start;
+}
+
 /*# sourceMappingURL=style.css.map */

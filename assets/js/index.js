@@ -1,4 +1,15 @@
 $ ( document ).ready(function(){
+    // ham-menu
+    $( '.ham-menu-icon' ).on("click", function(){
+      $( '.main-page' ).hide();
+      $('.ham-menu').show();
+    });
+
+    $( '.ham-menu-icon-cross' ).on("click", function(){
+      $( '.main-page' ).show();
+      $('.ham-menu').hide();
+    });
+
     // Scroll to top
     $( window ).on("scroll", function(){
         if(window.pageYOffset > 100){

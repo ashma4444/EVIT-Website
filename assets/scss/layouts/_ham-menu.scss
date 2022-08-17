@@ -1,0 +1,33 @@
+.ham-menu{
+    background-color: #010834;
+    height: 100vh;
+    display: none;
+
+    nav{
+        display: flex;
+        flex-direction: column;
+
+        .nav-logo-wrapper{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            .ham-menu-icon-cross{
+                i{
+                    font-size: 18px;
+                }
+            }
+        }
+
+        
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            opacity: 1;
+            padding: 20px 0; 
+            width: 100%;
+            justify-content: flex-start;
+        }
+    }
+}
