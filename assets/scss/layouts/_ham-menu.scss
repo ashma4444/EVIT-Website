@@ -13,6 +13,9 @@
             justify-content: space-between;
 
             .ham-menu-icon-cross{
+                &:hover{
+                    cursor: pointer;
+                }
                 i{
                     font-size: 18px;
                 }

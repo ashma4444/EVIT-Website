@@ -82,6 +82,10 @@ nav{
         font-size: 22px;
         display: none;
 
+        &:hover{
+            cursor: pointer;
+        }
+
         @include for-tablet-landscape-up{
             display: block;
         }

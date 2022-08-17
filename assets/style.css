@@ -248,6 +248,9 @@ nav .ham-menu-icon {
   font-size: 22px;
   display: none;
 }
+nav .ham-menu-icon:hover {
+  cursor: pointer;
+}
 @media (max-width: 900px) {
   nav .ham-menu-icon {
     display: block;
@@ -744,6 +747,9 @@ footer .copyright p {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+.ham-menu nav .nav-logo-wrapper .ham-menu-icon-cross:hover {
+  cursor: pointer;
 }
 .ham-menu nav .nav-logo-wrapper .ham-menu-icon-cross i {
   font-size: 18px;
