@@ -1,13 +1,13 @@
 $ ( document ).ready(function(){
     // ham-menu
     $( '.ham-menu-icon' ).on("click", function(){
-      $( '.main-page' ).hide();
+      $('.main-page').hide();
       $('.ham-menu').show();
     });
 
     $( '.ham-menu-icon-cross' ).on("click", function(){
-      $( '.main-page' ).show();
       $('.ham-menu').hide();
+      $('.main-page').show();
     });
 
     // Scroll to top
