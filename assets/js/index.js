@@ -7,11 +7,12 @@ $ ( document ).ready(function(){
     // ham-menu
     $( '.ham-menu-icon' ).on("click", function(){
         $("#nav").addClass("ham-menu-active");
+        $("body").css("overflow", "hidden");
     });
 
     $( '.ham-menu-icon-cross' ).on("click", function(){
       $("#nav").removeClass("ham-menu-active");
-      $('.main-page').show();
+      $("body").css("overflow", "unset");
     });
 
     // Scroll to top
