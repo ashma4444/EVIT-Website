@@ -163,6 +163,16 @@ ul.slick-dots .slick-active {
   background-color: black;
 }
 
+.dashed-line::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  border-top: 2px dashed #000;
+  top: 0;
+  transform: translate(120px, 50px);
+}
+
 .banner-wrapper {
   height: 110vh;
 }
@@ -422,15 +432,11 @@ ul.slick-dots .slick-active {
     justify-content: space-between;
   }
 }
-.idea-solution-container .idea-solutions-wrapper .idea-solutions-box {
-  display: flex !important;
-  justify-content: space-around;
-}
 .idea-solution-container .idea-solutions-wrapper .idea-solutions-box .idea-solution {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  padding: 0 10px;
 }
 @media (max-width: 1024px) {
   .idea-solution-container .idea-solutions-wrapper .idea-solutions-box .idea-solution {
