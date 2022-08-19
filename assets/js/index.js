@@ -6,12 +6,11 @@ $ ( document ).ready(function(){
 
     // ham-menu
     $( '.ham-menu-icon' ).on("click", function(){
-      $('.main-page').hide();
-      $('.ham-menu').show();
+        $("#nav").addClass("ham-menu-active");
     });
 
     $( '.ham-menu-icon-cross' ).on("click", function(){
-      $('.ham-menu').hide();
+      $("#nav").removeClass("ham-menu-active");
       $('.main-page').show();
     });
 

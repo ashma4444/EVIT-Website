@@ -181,18 +181,24 @@ ul.slick-dots .slick-active {
   width: 100%;
   z-index: 1;
 }
-.banner-wrapper header section.social-media {
+.banner-wrapper header .social-media {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 15px 80px;
   display: flex;
   justify-content: end;
 }
-@media (max-width: 900px) {
-  .banner-wrapper header section.social-media {
-    justify-content: center;
+@media (max-width: 1024px) {
+  .banner-wrapper header .social-media {
+    padding: 15px 20px;
   }
 }
-.banner-wrapper header section.social-media .email-container {
+@media (max-width: 900px) {
+  .banner-wrapper header .social-media {
+    justify-content: center;
+    padding: 15px 0;
+  }
+}
+.banner-wrapper header .social-media .email-container {
   margin-left: 20px;
 }
 .banner-wrapper nav {
@@ -799,18 +805,33 @@ footer .copyright p {
 }
 
 .ham-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
   background-color: #010834;
   height: 100vh;
-  display: none;
+  transform: translateY(-100%);
+}
+.ham-menu header .social-media {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+.ham-menu header .social-media .email-container {
+  margin-left: 20px;
 }
 .ham-menu nav {
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 .ham-menu nav .nav-logo-wrapper {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+.ham-menu nav .nav-logo-wrapper .logo-container img {
+  max-width: 150px;
 }
 .ham-menu nav .nav-logo-wrapper .ham-menu-icon-cross:hover {
   cursor: pointer;
@@ -825,6 +846,12 @@ footer .copyright p {
   padding: 20px 0;
   width: 100%;
   justify-content: flex-start;
+}
+
+.ham-menu-active {
+  overflow: hidden;
+  transform: translateY(0%);
+  z-index: 111;
 }
 
 /*# sourceMappingURL=style.css.map */

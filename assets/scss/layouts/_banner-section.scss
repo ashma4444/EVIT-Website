@@ -7,15 +7,18 @@
         position: absolute;
         width: 100%;
         z-index: 1;
-
-        section.social-media{
+        .social-media{
             background-color: rgba(0, 0, 0, 0.2);
             padding: 15px 80px;
             display: flex;
             justify-content: end;
         
+            @include for-desktop{
+                padding: 15px 20px;
+            }
             @include for-tablet-landscape-up{
                 justify-content: center;
+                padding: 15px 0;
             }
         
             .email-container{
