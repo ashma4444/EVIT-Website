@@ -322,7 +322,7 @@ ul.slick-dots .slick-active {
     transform: translateY(-5px);
   }
 }
-.banner-wrapper .arrow-down img {
+.banner-wrapper .arrow-down a img {
   height: 100px;
 }
 .banner-wrapper .banner-img {
