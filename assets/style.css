@@ -391,7 +391,7 @@ ul.slick-dots .slick-active {
 .service-wrapper .services-container .service {
   width: 50%;
   text-align: center;
-  padding-right: 20px;
+  padding-left: 20px;
 }
 @media (max-width: 768px) {
   .service-wrapper .services-container .service {
@@ -407,6 +407,7 @@ ul.slick-dots .slick-active {
 }
 .service-wrapper .services-container .service p {
   margin-bottom: 20px;
+  font-weight: 300;
 }
 
 .idea-solution-container {
