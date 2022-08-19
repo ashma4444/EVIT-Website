@@ -1,4 +1,9 @@
 $ ( document ).ready(function(){
+  // sticky
+  $( window ).on("scroll", function(){
+    $( 'nav' ).toggleClass("sticky", window.scrollY > 0);
+  })
+
     // ham-menu
     $( '.ham-menu-icon' ).on("click", function(){
       $('.main-page').hide();
@@ -77,7 +82,7 @@ $ ( document ).ready(function(){
     // idea-solution slider
     $('.idea-solutions-wrapper').slick({
       dots: false,
-      infinite: true,
+      infinite: false,
       arrows: false,
       speed: 300,
       slidesToShow: 5,
