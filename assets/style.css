@@ -321,6 +321,11 @@ ul.slick-dots .slick-active {
   text-align: center;
   animation: bounce 2s ease infinite;
 }
+@media (max-width: 900px) {
+  .banner-wrapper .arrow-down {
+    bottom: -80px;
+  }
+}
 .banner-wrapper .arrow-down:hover {
   cursor: pointer;
 }
@@ -340,6 +345,11 @@ ul.slick-dots .slick-active {
 }
 .banner-wrapper .arrow-down a img {
   height: 100px;
+}
+@media (max-width: 900px) {
+  .banner-wrapper .arrow-down a img {
+    height: 80px;
+  }
 }
 .banner-wrapper .banner-img {
   width: 100%;
