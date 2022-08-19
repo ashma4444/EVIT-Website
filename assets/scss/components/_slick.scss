@@ -1,21 +1,25 @@
 ul.slick-dots{
     display: flex;
     justify-content: center;
-}
 
-ul.slick-dots li{
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    margin: 0 5px;
-}
+    li{
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        margin: 0 5px;
+        background-color: #fff;
 
-ul.slick-dots .slick-active{
-    background-color: black;
-}
-
-ul.slick-dots li button{
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
+        button{
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: transparent;
+            color: transparent;
+        }
+    }
+    
+    .slick-active{
+        background-color: black;
+    }
+    
 }
