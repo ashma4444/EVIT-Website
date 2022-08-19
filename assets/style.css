@@ -815,11 +815,11 @@ footer .copyright p {
 }
 
 .ham-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   background-color: #010834;
-  height: 100vh;
+  height: 100%;
   transform: translateY(-100%);
 }
 .ham-menu header .social-media {
