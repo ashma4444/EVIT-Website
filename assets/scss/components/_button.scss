@@ -26,6 +26,10 @@
     margin-left: 5px;
     cursor: pointer;
 
+    @include extra{
+        margin-top: 15px;
+    }
+
     &:hover{
         background-color: #2b9dff;
         border-color: #2b9dff;

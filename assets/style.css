@@ -83,6 +83,11 @@ span.social-media-info {
   margin-left: 5px;
   cursor: pointer;
 }
+@media (max-width: 521px) {
+  .btn2 {
+    margin-top: 15px;
+  }
+}
 .btn2:hover {
   background-color: #2b9dff;
   border-color: #2b9dff;

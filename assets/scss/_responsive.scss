@@ -4,6 +4,9 @@
   @mixin for-phone-only {
       @media (max-width: 480px) { @content; }
   }
+  @mixin extra{
+    @media (max-width: 521px) { @content; }
+  }
   @mixin for-tablet-portrait-up {
     @media (max-width: 600px) { @content; }
   }
