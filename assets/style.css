@@ -140,6 +140,11 @@ form .form-wrapper ::placeholder {
   opacity: 1;
   bottom: 30px;
 }
+@media (max-width: 1200px) {
+  .scroll-to-top.active {
+    bottom: 40px;
+  }
+}
 
 ul.slick-dots {
   display: flex;
@@ -856,6 +861,9 @@ footer .copyright p {
   padding: 20px 0;
   width: 100%;
   justify-content: flex-start;
+}
+.ham-menu nav ul li:hover {
+  color: #2b9dff;
 }
 
 .ham-menu-active {

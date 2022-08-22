@@ -24,6 +24,10 @@ $ ( document ).ready(function(){
         }
     });
 
+    // $(".scroll-to-top").on("click", function(){
+    //   window.scrollTo(0,0);
+    // })
+
     // Contact box- button disable
     $('input[type="checkbox"]').click(function(){
         if($(this).prop("checked") == true){
