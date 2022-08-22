@@ -39,7 +39,7 @@ $ ( document ).ready(function(){
     });
 
     // quotes slider
-    $('.quote-container-wrapper').slick({
+    $('.testimonial-container-wrapper').slick({
         dots:true,
         arrows:false,
         autoplay:true,
@@ -49,7 +49,7 @@ $ ( document ).ready(function(){
     });
 
     // projects icon slider
-    $('.project-icons-wrapper').slick({
+    $('.client-wrapper').slick({
         dots: false,
         infinite: false,
         arrows: false,

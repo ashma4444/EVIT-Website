@@ -39,6 +39,9 @@
             width: 50%;
             text-align: center;
             padding-left: 20px;
+            @include for-desktop {
+                text-align: left;
+            }
             @include for-tablet {
                 width: 100%;
             }

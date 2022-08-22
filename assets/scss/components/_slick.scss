@@ -15,6 +15,10 @@ ul.slick-dots{
             border-radius: 50%;
             background-color: transparent;
             color: transparent;
+
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
     

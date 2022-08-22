@@ -164,6 +164,9 @@ ul.slick-dots li button {
   background-color: transparent;
   color: transparent;
 }
+ul.slick-dots li button:hover {
+  cursor: pointer;
+}
 ul.slick-dots .slick-active {
   background-color: black;
 }
@@ -414,6 +417,11 @@ ul.slick-dots .slick-active {
   text-align: center;
   padding-left: 20px;
 }
+@media (max-width: 1024px) {
+  .service-wrapper .services-container .service {
+    text-align: left;
+  }
+}
 @media (max-width: 768px) {
   .service-wrapper .services-container .service {
     width: 100%;
@@ -615,25 +623,25 @@ ul.slick-dots .slick-active {
   z-index: 1;
 }
 
-.project-icons-container {
+.client-container {
   background-color: #010834;
   padding: 40px;
   margin-top: 2px;
   margin-bottom: 6px;
 }
-.project-icons-container .project-icons-wrapper .project-icons {
+.client-container .client-wrapper .client {
   width: 20%;
   display: flex !important;
   justify-content: center;
   height: 100px;
   align-items: center;
 }
-.project-icons-container .project-icons-wrapper .project-icons img {
+.client-container .client-wrapper .client img {
   max-width: 140px;
   max-height: 90px;
 }
 
-.quote-container {
+.testimonial-container {
   background-image: url("../assets/images/Image 17.png");
   background-position: center;
   background-size: cover;
@@ -641,22 +649,22 @@ ul.slick-dots .slick-active {
   padding: 80px;
 }
 @media (max-width: 600px) {
-  .quote-container {
+  .testimonial-container {
     padding: 60px;
   }
 }
-.quote-container h2, .quote-container p, .quote-container span {
+.testimonial-container h2, .testimonial-container p, .testimonial-container span {
   color: #000;
   text-align: center;
 }
-.quote-container p {
+.testimonial-container p {
   margin-bottom: 10px;
 }
-.quote-container span {
+.testimonial-container span {
   font-size: 13px;
   display: block;
 }
-.quote-container .quote-container-wrapper .quote-wrapper {
+.testimonial-container .testimonial-container-wrapper .testimonial-wrapper {
   background-color: white;
   display: block !important;
   padding: 30px;
@@ -667,7 +675,7 @@ ul.slick-dots .slick-active {
   width: 60% !important;
 }
 @media (max-width: 900px) {
-  .quote-container .quote-container-wrapper .quote-wrapper {
+  .testimonial-container .testimonial-container-wrapper .testimonial-wrapper {
     width: 100% !important;
   }
 }
