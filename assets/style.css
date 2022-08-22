@@ -439,53 +439,53 @@ ul.slick-dots .slick-active {
   font-weight: 300;
 }
 
-.idea-solution-container {
+.process-container {
   padding: 80px 40px;
 }
-.idea-solution-container p, .idea-solution-container h2, .idea-solution-container h3 {
+.process-container p, .process-container h2, .process-container h3 {
   color: #000;
   text-align: center;
 }
-.idea-solution-container h2 {
+.process-container h2 {
   margin-bottom: 50px;
 }
-.idea-solution-container h3 {
+.process-container h3 {
   margin-bottom: 15px;
 }
-.idea-solution-container .idea-solutions-wrapper {
+.process-container .process-wrapper {
   display: flex;
   justify-content: center;
 }
 @media (max-width: 1024px) {
-  .idea-solution-container .idea-solutions-wrapper {
+  .process-container .process-wrapper {
     flex-wrap: wrap;
     justify-content: space-between;
   }
 }
-.idea-solution-container .idea-solutions-wrapper .idea-solutions-box .idea-solution {
+.process-container .process-wrapper .process-box .process {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 10px;
 }
 @media (max-width: 1024px) {
-  .idea-solution-container .idea-solutions-wrapper .idea-solutions-box .idea-solution {
+  .process-container .process-wrapper .process-box .process {
     width: 30%;
     margin-bottom: 20px;
   }
 }
-.idea-solution-container .idea-solutions-wrapper .idea-solutions-box .idea-solution .idea-img {
+.process-container .process-wrapper .process-box .process .idea-img {
   width: 100px;
   text-align: center;
   margin-bottom: 20px;
 }
-.idea-solution-container .idea-solutions-wrapper .idea-solutions-box .line-img {
+.process-container .process-wrapper .process-box .line-img {
   height: 12px;
   max-width: 60px;
   margin: 50px 0;
 }
 @media (max-width: 1024px) {
-  .idea-solution-container .idea-solutions-wrapper .idea-solutions-box .line-img {
+  .process-container .process-wrapper .process-box .line-img {
     height: 12px;
     width: 100px;
   }

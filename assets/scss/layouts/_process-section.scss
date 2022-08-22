@@ -1,4 +1,4 @@
-.idea-solution-container{
+.process-container{
     padding: 80px 40px;
     p, h2, h3{
         color: #000;
@@ -11,7 +11,7 @@
        margin-bottom: 15px; 
     }
 
-    .idea-solutions-wrapper{
+    .process-wrapper{
         display: flex;
         justify-content: center;
         @include for-desktop{
@@ -19,8 +19,8 @@
             justify-content: space-between;
         }
 
-        .idea-solutions-box{
-            .idea-solution{
+        .process-box{
+            .process{
                 display: flex;
                 flex-direction: column;
                 align-items: center;

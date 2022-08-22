@@ -84,7 +84,7 @@ $ ( document ).ready(function(){
     });
 
     // idea-solution slider
-    $('.idea-solutions-wrapper').slick({
+    $('.process-wrapper').slick({
       dots: false,
       infinite: false,
       arrows: false,
