@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    font-size: 16px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+li.active{
+    background-color: bisque;;
+}
+
+.container{
+    padding: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container nav{
+    background-color: beige;
+}
+
+.container nav ul{
+    display: flex;
+}
+
+.container nav ul li{
+    padding: 15px 20px;
+}
+
+.content-wrapper{
+    background-color: azure;
+    padding: 15px;
+    display: none;
+}
+
+.content-wrapper.activediv{
+    display: block;
+}
+
+.content-wrapper h2{
+    margin-bottom: 15px;
+}
