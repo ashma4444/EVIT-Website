@@ -54,8 +54,15 @@
             width: 100%;
             justify-content: flex-start;
 
-            li:hover{
-                color: #2b9dff;
+            li{
+                padding: 10px 0;
+                a{
+                    font-size: 16px;
+                    margin: 20px 0;
+                   &:hover{
+                        color: #2b9dff;
+                    }
+                }   
             }
         }
     }

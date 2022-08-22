@@ -83,7 +83,6 @@ span.social-media-info {
   margin-left: 5px;
   cursor: pointer;
 }
-
 .btn2:hover {
   background-color: #2b9dff;
   border-color: #2b9dff;
@@ -870,7 +869,14 @@ footer .copyright p {
   width: 100%;
   justify-content: flex-start;
 }
-.ham-menu nav ul li:hover {
+.ham-menu nav ul li {
+  padding: 10px 0;
+}
+.ham-menu nav ul li a {
+  font-size: 16px;
+  margin: 20px 0;
+}
+.ham-menu nav ul li a:hover {
   color: #2b9dff;
 }
 

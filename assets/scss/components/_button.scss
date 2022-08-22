@@ -25,9 +25,10 @@
     font-size: 15px;
     margin-left: 5px;
     cursor: pointer;
+
+    &:hover{
+        background-color: #2b9dff;
+        border-color: #2b9dff;
+    }
 }
 
-.btn2:hover{
-    background-color: #2b9dff;
-    border-color: #2b9dff;
-}
